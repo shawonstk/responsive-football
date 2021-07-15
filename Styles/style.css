@@ -38,7 +38,7 @@ All Players Style
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
-    margin: 70px 220px 90px 220px;
+    margin: 70px 220px 45px 220px;
     
 }
 .container{
@@ -46,8 +46,7 @@ All Players Style
     height: 474px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     margin-bottom: 20px;
-    
-    
+       
 }
 .player{
     padding: 15px;
@@ -68,4 +67,30 @@ All Players Style
 .player-info p{
     font-size: 16px;
     line-height: 26px;
+}
+/*------------- 
+Footer Style 
+--------------*/
+.footer-container{
+    text-align: center;
+    padding: 40px;
+    margin-top: 10%;
+    
+}
+.logo img{
+    width: 483px;
+    height: 110px;
+}
+
+.social-icon img{
+    
+    width: 32px;
+    height: 32px;
+    margin: 0px 2px;
+
+}
+.footer-container p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
 }
